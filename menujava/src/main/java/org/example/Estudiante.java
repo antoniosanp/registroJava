@@ -19,6 +19,7 @@ public class Estudiante {
 
     public double calculatePromedio(){
         double promedio = 0;
+        if (notas.isEmpty()) return 0;
         for (double n : notas){
             promedio += n;
         }
