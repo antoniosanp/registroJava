@@ -1,12 +1,22 @@
-package org.example;
+package org.example.models;
 import java.util.ArrayList;
 
 public class Estudiante {
 
-    String nombre;
-    int edad;
-    ArrayList<Double> notas = new  ArrayList<Double>();
-    boolean estado = true;
+    public String nombre;
+    public int edad;
+    public ArrayList<Double> notas = new  ArrayList<Double>();
+    public boolean estado = true;
+
+    @Override
+    public String toString() {
+        return "Estudiante{" +
+                "nombre='" + nombre + '\'' +
+                ", edad=" + edad +
+                ", notas=" + notas +
+                ", estado=" + estado +
+                '}';
+    }
 
     public  Estudiante(String nombre, int edad){
         this.nombre = nombre;

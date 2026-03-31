@@ -1,6 +1,5 @@
-package org.example;
+package org.example.utils;
 
-import java.util.InputMismatchException;
 import java.util.Scanner;
 
 public class ValidateData {

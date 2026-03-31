@@ -1,4 +1,6 @@
-package org.example;
+package org.example.handler;
+import org.example.models.Estudiante;
+
 import java.util.ArrayList;
 
 public class ListaEstudiantes {
